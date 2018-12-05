@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TimingViewController.h
 //  HomePageDemo
 //
 //  Created by hoyifo on 2018/11/28.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "YPTabBarController.h"
 
-@interface ViewController : YPTabBarController
-
+@interface TimingViewController : UIViewController
 
 @end
-

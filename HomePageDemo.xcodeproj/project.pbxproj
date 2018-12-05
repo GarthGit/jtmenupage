@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5B9DFAE2E08BE2961B255A5 /* libPods-HomePageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEEB831005E24889F935347 /* libPods-HomePageDemo.a */; };
+		EE31477C21B61F7000BB16B2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31477B21B61F7000BB16B2 /* HomeViewController.m */; };
+		EE31477F21B61F8800BB16B2 /* RoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31477E21B61F8800BB16B2 /* RoomViewController.m */; };
+		EE31478221B61FA600BB16B2 /* SmartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31478121B61FA600BB16B2 /* SmartViewController.m */; };
+		EE31478521B61FB200BB16B2 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31478421B61FB200BB16B2 /* MineViewController.m */; };
+		EE31483921B67C8100BB16B2 /* JTOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31483521B67C8100BB16B2 /* JTOptionView.m */; };
+		EE31483A21B67C8100BB16B2 /* list_icon_drfault@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE31483621B67C8100BB16B2 /* list_icon_drfault@3x.png */; };
+		EE31483B21B67C8100BB16B2 /* list_icon_drfault@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE31483721B67C8100BB16B2 /* list_icon_drfault@2x.png */; };
 		EE6D16A721AE251A00A42E73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6D16A621AE251A00A42E73 /* AppDelegate.m */; };
 		EE6D16AA21AE251B00A42E73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6D16A921AE251B00A42E73 /* ViewController.m */; };
 		EE6D16AD21AE252100A42E73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6D16AB21AE252100A42E73 /* Main.storyboard */; };
@@ -15,6 +23,7 @@
 		EE6D16B521AE253400A42E73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6D16B421AE253400A42E73 /* main.m */; };
 		EE6D16BF21AE256700A42E73 /* HomePageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6D16BE21AE256700A42E73 /* HomePageDemoTests.m */; };
 		EE6D16CA21AE256800A42E73 /* HomePageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6D16C921AE256800A42E73 /* HomePageDemoUITests.m */; };
+		EE6D176221AE6CFC00A42E73 /* TimingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6D176121AE6CFC00A42E73 /* TimingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FEEB831005E24889F935347 /* libPods-HomePageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HomePageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B1213ACB87AB18527982D9 /* Pods-HomePageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomePageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomePageDemo/Pods-HomePageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AF40F1DEC2188B841E672B9C /* Pods-HomePageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomePageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomePageDemo/Pods-HomePageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EE31477A21B61F7000BB16B2 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EE31477B21B61F7000BB16B2 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EE31477D21B61F8800BB16B2 /* RoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoomViewController.h; sourceTree = "<group>"; };
+		EE31477E21B61F8800BB16B2 /* RoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomViewController.m; sourceTree = "<group>"; };
+		EE31478021B61FA500BB16B2 /* SmartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartViewController.h; sourceTree = "<group>"; };
+		EE31478121B61FA600BB16B2 /* SmartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartViewController.m; sourceTree = "<group>"; };
+		EE31478321B61FB200BB16B2 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		EE31478421B61FB200BB16B2 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		EE31483521B67C8100BB16B2 /* JTOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTOptionView.m; sourceTree = "<group>"; };
+		EE31483621B67C8100BB16B2 /* list_icon_drfault@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_icon_drfault@3x.png"; sourceTree = "<group>"; };
+		EE31483721B67C8100BB16B2 /* list_icon_drfault@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_icon_drfault@2x.png"; sourceTree = "<group>"; };
+		EE31483821B67C8100BB16B2 /* JTOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTOptionView.h; sourceTree = "<group>"; };
 		EE6D16A221AE251900A42E73 /* HomePageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6D16A521AE251A00A42E73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE6D16A621AE251A00A42E73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +75,8 @@
 		EE6D16C521AE256800A42E73 /* HomePageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomePageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6D16C921AE256800A42E73 /* HomePageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageDemoUITests.m; sourceTree = "<group>"; };
 		EE6D16CB21AE256800A42E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6D176021AE6CFC00A42E73 /* TimingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimingViewController.h; sourceTree = "<group>"; };
+		EE6D176121AE6CFC00A42E73 /* TimingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B9DFAE2E08BE2961B255A5 /* libPods-HomePageDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +105,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78748A7AE8B21F974F30FA2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5B1213ACB87AB18527982D9 /* Pods-HomePageDemo.debug.xcconfig */,
+				AF40F1DEC2188B841E672B9C /* Pods-HomePageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEC11D61BCCCE1A902C51F14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FEEB831005E24889F935347 /* libPods-HomePageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE31483321B67C8100BB16B2 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				EE31483421B67C8100BB16B2 /* JTMenuTable */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		EE31483421B67C8100BB16B2 /* JTMenuTable */ = {
+			isa = PBXGroup;
+			children = (
+				EE31483821B67C8100BB16B2 /* JTOptionView.h */,
+				EE31483521B67C8100BB16B2 /* JTOptionView.m */,
+				EE31483621B67C8100BB16B2 /* list_icon_drfault@3x.png */,
+				EE31483721B67C8100BB16B2 /* list_icon_drfault@2x.png */,
+			);
+			path = JTMenuTable;
+			sourceTree = "<group>";
+		};
 		EE6D169921AE251900A42E73 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +148,8 @@
 				EE6D16BD21AE256700A42E73 /* HomePageDemoTests */,
 				EE6D16C821AE256800A42E73 /* HomePageDemoUITests */,
 				EE6D16A321AE251900A42E73 /* Products */,
+				78748A7AE8B21F974F30FA2D /* Pods */,
+				CEC11D61BCCCE1A902C51F14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +166,20 @@
 		EE6D16A421AE251900A42E73 /* HomePageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EE31483321B67C8100BB16B2 /* Third */,
+				EE6D175F21AE6CCF00A42E73 /* Home */,
 				EE6D16A521AE251A00A42E73 /* AppDelegate.h */,
 				EE6D16A621AE251A00A42E73 /* AppDelegate.m */,
 				EE6D16A821AE251B00A42E73 /* ViewController.h */,
 				EE6D16A921AE251B00A42E73 /* ViewController.m */,
+				EE31477A21B61F7000BB16B2 /* HomeViewController.h */,
+				EE31477B21B61F7000BB16B2 /* HomeViewController.m */,
+				EE31477D21B61F8800BB16B2 /* RoomViewController.h */,
+				EE31477E21B61F8800BB16B2 /* RoomViewController.m */,
+				EE31478021B61FA500BB16B2 /* SmartViewController.h */,
+				EE31478121B61FA600BB16B2 /* SmartViewController.m */,
+				EE31478321B61FB200BB16B2 /* MineViewController.h */,
+				EE31478421B61FB200BB16B2 /* MineViewController.m */,
 				EE6D16AB21AE252100A42E73 /* Main.storyboard */,
 				EE6D16AE21AE253300A42E73 /* Assets.xcassets */,
 				EE6D16B021AE253300A42E73 /* LaunchScreen.storyboard */,
@@ -132,6 +207,15 @@
 			path = HomePageDemoUITests;
 			sourceTree = "<group>";
 		};
+		EE6D175F21AE6CCF00A42E73 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D176021AE6CFC00A42E73 /* TimingViewController.h */,
+				EE6D176121AE6CFC00A42E73 /* TimingViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE6D16CE21AE256800A42E73 /* Build configuration list for PBXNativeTarget "HomePageDemo" */;
 			buildPhases = (
+				AE115E8B0FA386693D7DDCF4 /* [CP] Check Pods Manifest.lock */,
 				EE6D169E21AE251900A42E73 /* Sources */,
 				EE6D169F21AE251900A42E73 /* Frameworks */,
 				EE6D16A021AE251900A42E73 /* Resources */,
+				85FD34E26806C1CD14D0D22F /* [CP] Embed Pods Frameworks */,
+				D277B94288C39F651D94DB76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,8 +326,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE6D16B221AE253300A42E73 /* LaunchScreen.storyboard in Resources */,
+				EE31483B21B67C8100BB16B2 /* list_icon_drfault@2x.png in Resources */,
 				EE6D16AF21AE253300A42E73 /* Assets.xcassets in Resources */,
 				EE6D16AD21AE252100A42E73 /* Main.storyboard in Resources */,
+				EE31483A21B67C8100BB16B2 /* list_icon_drfault@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +349,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		85FD34E26806C1CD14D0D22F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomePageDemo/Pods-HomePageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE115E8B0FA386693D7DDCF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomePageDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D277B94288C39F651D94DB76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomePageDemo/Pods-HomePageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE6D169E21AE251900A42E73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE6D176221AE6CFC00A42E73 /* TimingViewController.m in Sources */,
+				EE31477F21B61F8800BB16B2 /* RoomViewController.m in Sources */,
+				EE31483921B67C8100BB16B2 /* JTOptionView.m in Sources */,
 				EE6D16AA21AE251B00A42E73 /* ViewController.m in Sources */,
 				EE6D16B521AE253400A42E73 /* main.m in Sources */,
+				EE31477C21B61F7000BB16B2 /* HomeViewController.m in Sources */,
+				EE31478221B61FA600BB16B2 /* SmartViewController.m in Sources */,
 				EE6D16A721AE251A00A42E73 /* AppDelegate.m in Sources */,
+				EE31478521B61FB200BB16B2 /* MineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +574,7 @@
 		};
 		EE6D16CF21AE256800A42E73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B1213ACB87AB18527982D9 /* Pods-HomePageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +588,7 @@
 		};
 		EE6D16D021AE256800A42E73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF40F1DEC2188B841E672B9C /* Pods-HomePageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
