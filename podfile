@@ -4,4 +4,8 @@
 
     pod 'YPTabBarController', '~> 2.2.3'
     pod 'Masonry'
+#     use_frameworks!
+#    pod 'FWSegmentedControl'
+
+     
 end

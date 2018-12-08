@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor grayColor];
+    self.navigationController.title = [NSString stringWithFormat:@"家庭详情"];
+    
 }
 
 - (void)didReceiveMemoryWarning {

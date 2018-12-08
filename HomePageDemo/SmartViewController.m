@@ -10,6 +10,9 @@
 
 @interface SmartViewController ()
 
+@property (nonatomic , copy)  NSMutableArray *dataArray;
+
+
 @end
 
 @implementation SmartViewController

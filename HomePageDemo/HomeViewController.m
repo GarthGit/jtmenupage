@@ -49,20 +49,155 @@ APPRGBA(r,g,b,1)
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor orangeColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     [self requestData];
     
     [self initWithDeviceCollectionView];
     
     
+    [self iconDeviceSegment];
+    
 }
+
+#pragma mark ========== segment 设备分类
+- (void)iconDeviceSegment{
+    
+    NSArray *iconArr = @[@"智能主机",@"智能插座",@"智能开关",@"智能照明",@"智能遥控器",@"传感器",@"影音",@"窗帘电机"];
+    // [_titleLabel setFont:[UIFont fontWithName:@"Helvetica-Bold" size:12]];
+
+    UISegmentedControl *deviceSeg = [[UISegmentedControl alloc] initWithItems:iconArr];
+    //默认选中的按钮索引
+    deviceSeg.selectedSegmentIndex = 0;
+    //设置分段控件点击相应事件
+    [deviceSeg addTarget:self action:@selector(segmentSelect:)forControlEvents:UIControlEventValueChanged];
+    //设置test控件的颜色为透明
+    deviceSeg.tintColor = [UIColor clearColor];
+    
+    deviceSeg.frame = CGRectMake(0, 0, k_width, 45);
+    
+    
+    
+    
+    
+    //定义选中状态的样式selected，类型为字典
+    NSDictionary *selected = @{NSFontAttributeName:[UIFont systemFontOfSize:11],
+                               NSForegroundColorAttributeName:[UIColor redColor]};
+    //定义未选中状态下的样式normal，类型为字典
+    NSDictionary *normal = @{NSFontAttributeName:[UIFont systemFontOfSize:10],
+                             NSForegroundColorAttributeName:[UIColor blackColor]};
+    //通过setTitleTextAttributes: forState: 方法来给test控件设置文字内容的格式
+    [deviceSeg setTitleTextAttributes:normal forState:UIControlStateNormal];
+    [deviceSeg setTitleTextAttributes:selected forState:UIControlStateSelected];
+    
+    //设置test初始状态下的选中下标
+    deviceSeg.selectedSegmentIndex = 0;
+  
+#pragma mark ------- segment 图标
+    
+    
+    [self.view addSubview:deviceSeg];
+}
+// 根据用户的点击选择不同的设备类型数据供用户浏览
+- (void)segmentSelect:(UISegmentedControl *)sender{
+    
+    
+    NSLog(@"segmentSelectIndex:%@",sender);
+
+    switch (sender.selectedSegmentIndex) {
+        case 0:
+        {
+            NSLog(@"segmentSelectIndex:%ld",sender.selectedSegmentIndex);
+            
+            
+            
+
+        }
+            break;
+        case 1:
+        {
+            NSLog(@"segmentSelectIndex:%ld",sender.selectedSegmentIndex);
+
+        }
+            break;
+        case 2:
+        {
+            NSLog(@"segmentSelectIndex:%ld",sender.selectedSegmentIndex);
+
+        }
+            break;
+            
+        case 3:
+        {
+            NSLog(@"segmentSelectIndex:%ld",sender.selectedSegmentIndex);
+
+        }
+            break;
+        case 4:
+        {
+            NSLog(@"segmentSelectIndex:%ld",sender.selectedSegmentIndex);
+
+        }
+            break;
+        case 5:
+        {
+            NSLog(@"segmentSelectIndex:%ld",sender.selectedSegmentIndex);
+
+        }
+            break;
+       
+        case 6:
+        {
+            NSLog(@"segmentSelectIndex:%ld",sender.selectedSegmentIndex);
+
+        }
+            break;
+        case 7:
+        {
+            NSLog(@"segmentSelectIndex:%ld",sender.selectedSegmentIndex);
+
+        }
+            break;
+            
+        case 8:
+        {
+            NSLog(@"segmentSelectIndex:%ld",sender.selectedSegmentIndex);
+
+        }
+            break;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        default:
+            NSLog(@"%@",sender);
+            
+            break;
+    }
+    
+}
+
+
+    
+    
+    
+
 - (void)initWithDeviceCollectionView{
     
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
     //设置CollectionView的属性
-    self.deviceCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, k_width, k_height) collectionViewLayout:flowLayout];
+    self.deviceCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 45, k_width, k_height) collectionViewLayout:flowLayout];
     
     self.deviceCollectionView.delegate = self;
     self.deviceCollectionView.dataSource = self;
@@ -76,6 +211,7 @@ APPRGBA(r,g,b,1)
    
         
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -24,6 +24,7 @@
 		EE6D16BF21AE256700A42E73 /* HomePageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6D16BE21AE256700A42E73 /* HomePageDemoTests.m */; };
 		EE6D16CA21AE256800A42E73 /* HomePageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6D16C921AE256800A42E73 /* HomePageDemoUITests.m */; };
 		EE6D176221AE6CFC00A42E73 /* TimingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6D176121AE6CFC00A42E73 /* TimingViewController.m */; };
+		EEE17CCD21BA6A8200888C75 /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE17CCC21BA6A8200888C75 /* KxMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		EE6D16CB21AE256800A42E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE6D176021AE6CFC00A42E73 /* TimingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimingViewController.h; sourceTree = "<group>"; };
 		EE6D176121AE6CFC00A42E73 /* TimingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimingViewController.m; sourceTree = "<group>"; };
+		EEE17CCB21BA6A8200888C75 /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
+		EEE17CCC21BA6A8200888C75 /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 		EE31483421B67C8100BB16B2 /* JTMenuTable */ = {
 			isa = PBXGroup;
 			children = (
+				EEE17CCB21BA6A8200888C75 /* KxMenu.h */,
+				EEE17CCC21BA6A8200888C75 /* KxMenu.m */,
 				EE31483821B67C8100BB16B2 /* JTOptionView.h */,
 				EE31483521B67C8100BB16B2 /* JTOptionView.m */,
 				EE31483621B67C8100BB16B2 /* list_icon_drfault@3x.png */,
@@ -412,6 +417,7 @@
 				EE6D16B521AE253400A42E73 /* main.m in Sources */,
 				EE31477C21B61F7000BB16B2 /* HomeViewController.m in Sources */,
 				EE31478221B61FA600BB16B2 /* SmartViewController.m in Sources */,
+				EEE17CCD21BA6A8200888C75 /* KxMenu.m in Sources */,
 				EE6D16A721AE251A00A42E73 /* AppDelegate.m in Sources */,
 				EE31478521B61FB200BB16B2 /* MineViewController.m in Sources */,
 			);

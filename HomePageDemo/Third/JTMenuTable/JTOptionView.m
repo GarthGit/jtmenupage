@@ -75,6 +75,7 @@ static CGFloat const rowheight = 42;
     return self;
 }
 
+//   位置 布局
 - (void)setUI {
     
     self.cornerRadius = 5;
@@ -130,7 +131,7 @@ static CGFloat const rowheight = 42;
     }];
     
 }
-
+// 回收
 - (void)dismiss {
     WEAKSELF;
     [UIView animateWithDuration:animationTime animations:^{
@@ -167,7 +168,12 @@ static CGFloat const rowheight = 42;
         case 0:{
             
            
-            cell.textLabel.text = self.dataSource[indexPath.row];
+//            cell.textLabel.text = self.dataSource[indexPath.row];
+            
+            cell.textLabel.text = [NSString stringWithFormat:@"%@", self.dataSource[indexPath.row]];
+            
+            [cell.textLabel setFont:[UIFont fontWithName:@"Helvetica-Bold" size:12]];
+
             
             return cell;
 
@@ -176,7 +182,11 @@ static CGFloat const rowheight = 42;
             break;
             
         case 1:{
+            
             cell.textLabel.text = [NSString stringWithFormat:@"家庭管理"];
+            
+            [cell.textLabel setFont:[UIFont fontWithName:@"Helvetica-Bold" size:12]];
+
 
         }
 
@@ -205,12 +215,6 @@ static CGFloat const rowheight = 42;
             
             self.title = self.dataSource[indexPath.row];
             [self dismiss];
-//            if ([self.delegate respondsToSelector:@selector(optionView:selectedIndex:)]) {
-//                [self.delegate optionView:self selectedIndex:indexPath.row];
-//            }
-//            if (self.selectedBlock) {
-//                self.selectedBlock(self, indexPath.row);
-//            }
             
             if ([self.delegate respondsToSelector:@selector(optionView:selectedIndex:selectdSection:)]) {
                 
@@ -224,8 +228,7 @@ static CGFloat const rowheight = 42;
             
             
         }
-            NSLog(@"所点击section %ld",indexPath.section);
-            NSLog(@"所点击row %ld",indexPath.row);
+            NSLog(@"所点击section %ld/n 所点击row %ld",indexPath.section,indexPath.row);
 
         
             break;
@@ -244,7 +247,6 @@ static CGFloat const rowheight = 42;
             if (self.selectdSectionBlock) {
                 self.selectdSectionBlock(self, indexPath.row, indexPath.section);
             }
-            
             
             
             
@@ -268,8 +270,10 @@ static CGFloat const rowheight = 42;
 - (UILabel *)titleLabel {
     if (!_titleLabel) {
         _titleLabel = [UILabel new];
-        _titleLabel.text = @"请选择";
+//        _titleLabel.text = @"请选择";
+        _titleLabel.text = [NSString stringWithFormat:@"%@",_title];
         _titleLabel.textColor = [UIColor colorWithRed:51.0/255.0 green:51.0/255.0 blue:51.0/255.0 alpha:1];
+        //  黑体加粗
         [_titleLabel setFont:[UIFont fontWithName:@"Helvetica-Bold" size:12]];
     }
     return _titleLabel;
